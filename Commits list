@@ -1,2 +1,1 @@
-git log --before="2018-06-25 23:59:59" \
-     --pretty=fuller
+git log --before='06/25/2018' --pretty=format:'%h;%an;%ad;%s' --author='Ionut Colceriu' > ~/log.csv
