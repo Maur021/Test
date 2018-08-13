@@ -1,0 +1,2 @@
+git log --before="2018-06-25 23:59:59" \
+     --pretty=fuller
